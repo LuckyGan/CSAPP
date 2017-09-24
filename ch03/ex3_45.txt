@@ -1,0 +1,16 @@
+A. 字段    a    b    c    d    e    f    g    h
+   偏移量  0    8    16   24   28   32   40   48
+B. 总大小为56字节
+C. struct {
+	   char d;
+	   char f;
+	   short b;
+	   float e;
+	   int h;
+	   char* a;
+	   double c;
+	   long g;
+	} rec;
+   字段    d    f    b    e    h    a    c    g
+   偏移量  0    1    2    4    8    16   24   32
+   总大小为40字节
